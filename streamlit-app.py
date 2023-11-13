@@ -3,7 +3,6 @@ import streamlit
 
 my_cnx = snowflake.connector.connect(**streamlit.secrets["snowflake"])
 streamlit.text("Hello from Snowflake:")
-streamlit.text(my_data_rows)
 
 
 
